@@ -5,21 +5,25 @@
     <title>Pokemones</title>
   </head>
   <body>
-    <input type="text" name="" value="" id="nombrePokemon">
-    <input type="text" name="" value="" id="colorPokemon">
-    <input type="text" name="" value="" id="puntosAtaque">
-
+    <section>
+      Nombre Pokemon:<input type="text" name="" value="" id="nombrePokemon">
+      Color Pokemon:<input type="text" name="" value="" id="colorPokemon">
+      Puntos de Ataque:<input type="text" name="" value="" id="puntosAtaque">
+      <button type="button" name="button" id="crearPokemon" onclick="crearPokemons();">crear Pokemones</button>
+    </section>
     <section id="listaPokemons">
-      <select class="" name="" id="lista1">
+      <select class="" name="" id="lista1" >
 
       </select>
+
       <select class="" name="" id="lista2">
 
       </select>
 
     </section>
-    <button type="button" name="button" id="crearPokemon" onclick="crearPokemons();">crear Pokemones</button>
 
+    <button type="button" name="button" onclick="pelearPokemones()">Pelear</button>
+    <p id="mostrarResultado"></p>
     <script type="text/javascript" src="assets/js/pokemones.js">
 
     </script>
